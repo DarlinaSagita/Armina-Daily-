@@ -26,16 +26,43 @@ body {
             background-color: #52a3b6 ;
 		}
 
-        .video1,
+      .playlist1 {
+			position: absolute;
+			top: 240px;
+			left: 25px;
+			width: 200px;
+			height: 40px;
+            border: ridge 5px #ca7220;
+            background-color: #52a3b6 ;
+		}
+
+    .video1,
         .video2,
         .video3,
         .video4,
-        .video5 {
+        .video5
+         {
             position: absolute;
             left: 0;
             right: 0;
-            height: calc(20% - 1px);
+            height: calc(20% + 1px);
             border-bottom: solid 1px #6A6A6A;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 10px;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .video6     
+         {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: calc(100% - 1px);
             display: flex;
             justify-content: left;
             align-items: center;
@@ -66,11 +93,21 @@ body {
             top: 80%;
         }
 
+        .video6 {
+            top: 1%;
+        }
+
         .video1:hover,
         .video2:hover,
         .video3:hover,
         .video4:hover,
-        .video5:hover {
+        .video5:hover
+         {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .video6:hover {
             background-color: #ffffff;
             color: #000000;
         }

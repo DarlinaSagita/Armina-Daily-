@@ -28,6 +28,7 @@ let slideIndex = 1;
                 vid3.pause();
                 vid4.pause();
                 vid5.pause();
+                vid6.pause();
             });
         });
         $('document').ready(function () {
@@ -38,6 +39,7 @@ let slideIndex = 1;
                 vid3.pause();
                 vid4.pause();
                 vid5.pause();
+                vid6.pause();
             });
         });
         $('document').ready(function () {
@@ -48,6 +50,7 @@ let slideIndex = 1;
                 vid2.pause();
                 vid4.pause();
                 vid5.pause();
+                vid6.pause();
             });
         });
         $('document').ready(function () {
@@ -58,6 +61,7 @@ let slideIndex = 1;
                 vid2.pause();
                 vid3.pause();
                 vid5.pause();
+                vid6.pause();
             });
         });
         $('document').ready(function () {
@@ -68,6 +72,18 @@ let slideIndex = 1;
                 vid2.pause();
                 vid3.pause();
                 vid4.pause();
+                vid6.pause();
+            });
+        });
+         $('document').ready(function () {
+            $('.video6').click(function () {
+                currentSlide(6);
+                vid6.play();
+                vid1.pause();
+                vid2.pause();
+                vid3.pause();
+                vid4.pause();
+                vid5.pause();
             });
         });
 
@@ -76,6 +92,7 @@ let slideIndex = 1;
         let vid3 = document.getElementById("myVideo3");
         let vid4 = document.getElementById("myVideo4");
         let vid5 = document.getElementById("myVideo5");
+        let vid6 = document.getElementById("myVideo6");
 
 
 // -------------------------------  Floating Menu  ----------------------------- //
