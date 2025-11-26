@@ -29,6 +29,10 @@ let slideIndex = 1;
                 vid4.pause();
                 vid5.pause();
                 vid6.pause();
+                vid7.pause();
+                vid8.pause();
+                vid9.pause();
+                vid10.pause();
             });
         });
         $('document').ready(function () {
@@ -40,6 +44,10 @@ let slideIndex = 1;
                 vid4.pause();
                 vid5.pause();
                 vid6.pause();
+                vid7.pause();
+                vid8.pause();
+                vid9.pause();
+                vid10.pause();
             });
         });
         $('document').ready(function () {
@@ -51,6 +59,10 @@ let slideIndex = 1;
                 vid4.pause();
                 vid5.pause();
                 vid6.pause();
+                vid7.pause();
+                vid8.pause();
+                vid9.pause();
+                vid10.pause();
             });
         });
         $('document').ready(function () {
@@ -62,6 +74,10 @@ let slideIndex = 1;
                 vid3.pause();
                 vid5.pause();
                 vid6.pause();
+                vid7.pause();
+                vid8.pause();
+                vid9.pause();
+                vid10.pause();
             });
         });
         $('document').ready(function () {
@@ -73,6 +89,10 @@ let slideIndex = 1;
                 vid3.pause();
                 vid4.pause();
                 vid6.pause();
+                vid7.pause();
+                vid8.pause();
+                vid9.pause();
+                vid10.pause();
             });
         });
          $('document').ready(function () {
@@ -84,6 +104,70 @@ let slideIndex = 1;
                 vid3.pause();
                 vid4.pause();
                 vid5.pause();
+                vid7.pause();
+                vid8.pause();
+                vid9.pause();
+                vid10.pause();
+            });
+        });
+        $('document').ready(function () {
+            $('.video7').click(function () {
+                currentSlide(7);
+                vid7.play();                
+                vid1.pause();
+                vid2.pause();
+                vid3.pause();
+                vid4.pause();
+                vid5.pause();
+                vid6.pause();
+                vid8.pause();
+                vid9.pause();
+                vid10.pause();
+            });
+        });
+         $('document').ready(function () {
+            $('.video8').click(function () {
+                currentSlide(8);
+                vid8.play();                
+                vid1.pause();
+                vid2.pause();
+                vid3.pause();
+                vid4.pause();
+                vid5.pause();
+                vid6.pause();
+                vid7.pause();
+                vid9.pause();
+                vid10.pause();
+            });
+        });
+         $('document').ready(function () {
+            $('.video9').click(function () {
+                currentSlide(9);
+                vid9.play();                
+                vid1.pause();
+                vid2.pause();
+                vid3.pause();
+                vid4.pause();
+                vid5.pause();
+                vid6.pause();
+                vid7.pause();
+                vid8.pause();
+                vid10.pause();
+            });
+        });
+        $('document').ready(function () {
+            $('.video10').click(function () {
+                currentSlide(10);
+                vid10.play();                
+                vid1.pause();
+                vid2.pause();
+                vid3.pause();
+                vid4.pause();
+                vid5.pause();
+                vid6.pause();
+                vid7.pause();
+                vid8.pause();
+                vid9.pause();
             });
         });
 
@@ -93,6 +177,10 @@ let slideIndex = 1;
         let vid4 = document.getElementById("myVideo4");
         let vid5 = document.getElementById("myVideo5");
         let vid6 = document.getElementById("myVideo6");
+        let vid7 = document.getElementById("myVideo7");
+        let vid8 = document.getElementById("myVideo8");
+        let vid9 = document.getElementById("myVideo9");
+        let vid10 = document.getElementById("myVideo10");
 
 
 // -------------------------------  Floating Menu  ----------------------------- //
