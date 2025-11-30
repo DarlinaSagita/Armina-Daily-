@@ -57,6 +57,7 @@ body {
   margin: 0;
   font-size: var(--font-size-base);
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* Dust/Scratches background effect for the entire site */
