@@ -33,6 +33,9 @@ let slideIndex = 1;
                 vid8.pause();
                 vid9.pause();
                 vid10.pause();
+                vid11.pause();
+                vid12.pause();
+                vid13.pause();
             });
         });
         $('document').ready(function () {
@@ -48,6 +51,9 @@ let slideIndex = 1;
                 vid8.pause();
                 vid9.pause();
                 vid10.pause();
+                vid11.pause();
+                vid12.pause();
+                vid13.pause();
             });
         });
         $('document').ready(function () {
@@ -63,6 +69,9 @@ let slideIndex = 1;
                 vid8.pause();
                 vid9.pause();
                 vid10.pause();
+                vid11.pause();
+                vid12.pause();
+                vid13.pause();
             });
         });
         $('document').ready(function () {
@@ -78,6 +87,9 @@ let slideIndex = 1;
                 vid8.pause();
                 vid9.pause();
                 vid10.pause();
+                vid11.pause();
+                vid12.pause();
+                vid13.pause();
             });
         });
         $('document').ready(function () {
@@ -93,6 +105,9 @@ let slideIndex = 1;
                 vid8.pause();
                 vid9.pause();
                 vid10.pause();
+                vid11.pause();
+                vid12.pause();
+                vid13.pause();
             });
         });
          $('document').ready(function () {
@@ -108,6 +123,9 @@ let slideIndex = 1;
                 vid8.pause();
                 vid9.pause();
                 vid10.pause();
+                vid11.pause();
+                vid12.pause();
+                vid13.pause();
             });
         });
         $('document').ready(function () {
@@ -123,6 +141,9 @@ let slideIndex = 1;
                 vid8.pause();
                 vid9.pause();
                 vid10.pause();
+                vid11.pause();
+                vid12.pause();
+                vid13.pause();
             });
         });
          $('document').ready(function () {
@@ -138,6 +159,9 @@ let slideIndex = 1;
                 vid7.pause();
                 vid9.pause();
                 vid10.pause();
+                vid11.pause();
+                vid12.pause();
+                vid13.pause();
             });
         });
          $('document').ready(function () {
@@ -153,6 +177,9 @@ let slideIndex = 1;
                 vid7.pause();
                 vid8.pause();
                 vid10.pause();
+                vid11.pause();
+                vid12.pause();
+                vid13.pause();
             });
         });
         $('document').ready(function () {
@@ -168,6 +195,63 @@ let slideIndex = 1;
                 vid7.pause();
                 vid8.pause();
                 vid9.pause();
+                vid11.pause();
+                vid12.pause();
+                vid13.pause();
+            });
+        });
+        $('document').ready(function () {
+            $('.video11').click(function () {
+                currentSlide(11);
+                vid11.play();                
+                vid1.pause();
+                vid2.pause();
+                vid3.pause();
+                vid4.pause();
+                vid5.pause();
+                vid6.pause();
+                vid7.pause();
+                vid8.pause();
+                vid9.pause();
+                vid10.pause();
+                vid12.pause();
+                vid13.pause();
+            });
+        });
+        $('document').ready(function () {
+            $('.video12').click(function () {
+                currentSlide(12);
+                vid12.play();                
+                vid1.pause();
+                vid2.pause();
+                vid3.pause();
+                vid4.pause();
+                vid5.pause();
+                vid6.pause();
+                vid7.pause();
+                vid8.pause();
+                vid9.pause();
+                vid10.pause();
+                vid11.pause();
+                vid13.pause();
+            });
+        });
+        $('document').ready(function () {
+            $('.video13').click(function () {
+                currentSlide(13);
+                vid13.play();                
+                vid1.pause();
+                vid2.pause();
+                vid3.pause();
+                vid4.pause();
+                vid5.pause();
+                vid6.pause();
+                vid7.pause();
+                vid8.pause();
+                vid9.pause();
+                vid10.pause();
+                vid11.pause();
+                vid12.pause();
             });
         });
 
@@ -181,6 +265,9 @@ let slideIndex = 1;
         let vid8 = document.getElementById("myVideo8");
         let vid9 = document.getElementById("myVideo9");
         let vid10 = document.getElementById("myVideo10");
+        let vid11 = document.getElementById("myVideo11");
+        let vid12 = document.getElementById("myVideo12");
+        let vid13 = document.getElementById("myVideo13");
 
 
 // -------------------------------  Floating Menu  ----------------------------- //
