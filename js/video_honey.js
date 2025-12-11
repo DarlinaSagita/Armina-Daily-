@@ -21,18 +21,23 @@ let slideIndex = 1;
         }
 
         $('document').ready(function () {
-            $('.video').click(function () {
+            $('.video1').click(function () {
                 currentSlide(1);
                 vid1.play();
                 vid2.pause();
-                vid3.pause();
-                vid4.pause();
-                vid5.pause();
+            });
+        });
+        $('document').ready(function () {
+            $('.video2').click(function () {
+                currentSlide(2);
+                vid1.pause();
+                vid2.play();
             });
         });
         
 
-        let vid1 = document.getElementById("myVideo");
+        let vid1 = document.getElementById("myVideo1");
+        let vid2 = document.getElementById("myVideo2");
        
 
 
@@ -185,3 +190,4 @@ var cursor = {
 
 cursor.init();
 
+ 
