@@ -28,12 +28,21 @@ let slideIndex = 1;
                 vid3.pause();
             });
         });
-         $('document').ready(function () {
+        $('document').ready(function () {
             $('.video2').click(function () {
                 currentSlide(2);
                 vid2.play();
                 vid1.pause();
                 vid3.pause();              
+            });
+        });
+         $('document').ready(function () {
+            $('.video3').click(function () {
+                currentSlide(3);
+                vid3.play();
+                vid2.pause();
+                vid1.pause();
+                              
             });
         });
         
