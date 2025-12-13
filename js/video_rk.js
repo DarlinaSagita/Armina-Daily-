@@ -21,18 +21,35 @@ let slideIndex = 1;
         }
 
         $('document').ready(function () {
-            $('.video').click(function () {
+            $('.video1').click(function () {
                 currentSlide(1);
                 vid1.play();
                 vid2.pause();
                 vid3.pause();
-                vid4.pause();
-                vid5.pause();
+            });
+        });
+        $('document').ready(function () {
+            $('.video2').click(function () {
+                currentSlide(2);
+                vid2.play();
+                vid1.pause();
+                vid3.pause();              
+            });
+        });
+         $('document').ready(function () {
+            $('.video3').click(function () {
+                currentSlide(3);
+                vid3.play();
+                vid2.pause();
+                vid1.pause();
+                              
             });
         });
         
 
-        let vid1 = document.getElementById("myVideo");
+        let vid1 = document.getElementById("myVideo1");
+        let vid2 = document.getElementById("myVideo2");
+        let vid3 = document.getElementById("myVideo3");
        
 
 
