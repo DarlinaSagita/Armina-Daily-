@@ -25,6 +25,7 @@ let slideIndex = 1;
                 currentSlide(1);
                 vid1.play();
                 vid2.pause();
+                vid3.pause();
                 
             });
         });
@@ -33,6 +34,17 @@ let slideIndex = 1;
                 currentSlide(2);
                 vid1.pause();
                 vid2.play();
+                vid3.pause();
+                
+            });
+        });
+
+        $('document').ready(function () {
+            $('.video3').click(function () {
+                currentSlide(3);
+                vid1.pause();
+                vid3.play();
+                vid2.pause();
                 
             });
         });
@@ -40,6 +52,7 @@ let slideIndex = 1;
 
         let vid1 = document.getElementById("myVideo1");
         let vid2 = document.getElementById("myVideo2");
+        let vid3 = document.getElementById("myVideo3");
        
 
 
