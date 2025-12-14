@@ -46,6 +46,16 @@ body {
             background-color: #52a3b6 ;
 		}
 
+    .playlist3 {
+			position: absolute;
+			top: 205px;
+			left: 25px;
+			width: 200px;
+			height: 40px;
+            border: ridge 5px #ca7220;
+            background-color: #52a3b6 ;
+		}
+
      .video1
         {
             position: absolute;
@@ -96,6 +106,23 @@ body {
             font-weight: bold;
             cursor: pointer;
         }
+
+        .video4
+        {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: calc(100% - 1px);
+            border-bottom: solid 1px #6A6A6A;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 10px;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+        }
     
 
         .video1 {
@@ -107,6 +134,10 @@ body {
         }
 
         .video3 {
+            top: 0;
+        }
+
+        .video4 {
             top: 0;
         }
 

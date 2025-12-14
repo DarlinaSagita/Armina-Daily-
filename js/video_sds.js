@@ -26,7 +26,7 @@ let slideIndex = 1;
                 vid1.play();
                 vid2.pause();
                 vid3.pause();
-                
+                vid4.pause();
             });
         });
         $('document').ready(function () {
@@ -35,16 +35,26 @@ let slideIndex = 1;
                 vid1.pause();
                 vid2.play();
                 vid3.pause();
-                
+                vid4.pause();             
             });
         });
-
         $('document').ready(function () {
             $('.video3').click(function () {
                 currentSlide(3);
                 vid1.pause();
                 vid3.play();
                 vid2.pause();
+                vid4.pause();
+                
+            });
+        });
+        $('document').ready(function () {
+            $('.video4').click(function () {
+                currentSlide(4);
+                vid1.pause();
+                vid4.play();
+                vid2.pause();
+                vid3.pause();
                 
             });
         });
@@ -53,6 +63,7 @@ let slideIndex = 1;
         let vid1 = document.getElementById("myVideo1");
         let vid2 = document.getElementById("myVideo2");
         let vid3 = document.getElementById("myVideo3");
+        let vid4 = document.getElementById("myVideo4");
        
 
 
