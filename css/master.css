@@ -152,10 +152,14 @@ a:hover,
 
 /* Grid column assignments */
 .nav {
-  grid-column: 1 / span 3;
+  grid-column: 0 / span 1;
 }
 
 .values {
+  grid-column: 2 / span 2;
+}
+
+.values1 {
   grid-column: 5 / span 2;
 }
 
