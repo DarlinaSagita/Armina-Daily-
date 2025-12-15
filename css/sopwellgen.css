@@ -419,15 +419,16 @@
     transform: translate(-50%, -50%);
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
   }
+  /* #b67252 */
   .cursor-dot {
     width: 8px;
     height: 8px;
-    background-color: #b6ac52;
+    background-color: #52b673; 
   }
   .cursor-dot-outline {
     width: 40px;
     height: 40px;
-    background-color: rgba(200, 199, 125, 0.5);
+    background-color: rgba(125, 200, 144, 0.5);
   }
 
 
