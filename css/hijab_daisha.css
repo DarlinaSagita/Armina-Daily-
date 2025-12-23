@@ -270,11 +270,11 @@
 .fabHorizontal {
   flex-direction: row;
   bottom: 10px;
-  left: 58.8%;
+  left: 61.2%;
   transform: translate(-50%, 0);
 }
 .fabHorizontal.active .fabNav.fabNav--left a {
-  left: -315px;
+  left: -385px;
   transform: scale(1) translateX(0);
 }
 .fabHorizontal.active .fabNav.fabNav--right a {
