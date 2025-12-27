@@ -1,0 +1,382 @@
+body {
+			background-color: #c4e8f0;
+			overflow: hidden;
+		}
+
+		html,
+		body {
+			height: 100%;
+		}
+
+		.box {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+
+        .playlist {
+			position: absolute;
+			top: 25px;
+			left: 25px;
+			width: 201px;
+			height: 40px;
+            border: ridge 5px #ca7220;
+            background-color: #52a3b6 ;
+		}
+
+        .playlist1 {
+			position: absolute;
+			top: 85px;
+			left: 25px;
+			width: 200px;
+			height: 40px;
+            border: ridge 5px #ca7220;
+            background-color: #52a3b6 ;
+		}
+
+        .video1
+        {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: calc(100% - 1px);
+            border-bottom: solid 1px #6A6A6A;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 10px;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .video2
+        {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: calc(100% - 1px);
+            border-bottom: solid 1px #6A6A6A;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 10px;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+        }
+      
+        .video1 {
+            top: 0;
+        }
+
+        .video2 {
+            top: 0;
+        }
+
+
+        .video:hover
+        {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .viewer {
+			position: absolute;
+			top: 25px;
+			left: 240px;
+			width: 1100px;
+			height: 585px;
+            border: ridge 5px #ca7220;
+            background-color: #242424;
+		}
+
+        .mySlides {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .thevid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .thevid video {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            position: absolute;
+        }
+
+        /* Floating Menu */
+
+.fab {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center;
+  transition: 0.25s;
+}
+.fab.active .fabTrigger {
+  transform: scale(1);
+}
+.fab.active .fabTrigger .icon {
+  background: transparent;
+  transition: background 0.3s ease;
+}
+.fab.active .fabTrigger .icon, .fab.active .fabTrigger .icon:before, .fab.active .fabTrigger .icon:after {
+  height: 3px;
+}
+.fab.active .fabTrigger .icon:before, .fab.active .fabTrigger .icon:after {
+  width: 20px;
+  transform-origin: 50% 50%;
+  transition: all 100ms ease, width 100ms 100ms ease, transform 300ms 200ms cubic-bezier(0.28, 0.55, 0.385, 1.65);
+}
+.fab.active .fabTrigger .icon:before {
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+.fab.active .fabTrigger .icon:after {
+  right: 50%;
+  transform: translateX(50%) rotate(-45deg);
+}
+.fab.active .fabNav a {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.35s cubic-bezier(0.4, 2.08, 0.55, 1);
+}
+.fab .fabTrigger {
+  position: relative;
+  z-index: 1;
+  width: 60px;
+  height: 60px;
+  color: #FFF;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  border-radius: 100px;
+  background: #fff;
+  transform: scale(0.675);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(108, 46, 185, 0.2);
+  transition: 0.35s cubic-bezier(0.4, 2.08, 0.55, 1);
+}
+.fab .fabTrigger .icon {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background 0.3s ease;
+}
+.fab .fabTrigger .icon, .fab .fabTrigger .icon:before, .fab .fabTrigger .icon:after {
+  position: absolute;
+  display: block;
+  background: #000;
+  width: 6px;
+  height: 6px;
+  border-radius: 10px;
+}
+.fab .fabTrigger .icon:before, .fab .fabTrigger .icon:after {
+  content: "";
+  transition: all 100ms ease, right 100ms 100ms ease, left 100ms 100ms ease;
+}
+.fab .fabTrigger .icon:before {
+  left: -11px;
+  transform: translateX(-50%);
+}
+.fab .fabTrigger .icon:after {
+  right: -11px;
+  transform: translateX(50%);
+}
+.fab .fabNav {
+  display: flex;
+  align-items: center;
+}
+.fab .fabNav a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 12px;
+  width: 40px;
+  height: 40px;
+  font-family: "Noto Sans", sans-serif;
+  outline: none;
+  border: 0;
+  text-decoration: none;
+  border-radius: 100px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 0 rgba(108, 46, 185, 0.2);
+  opacity: 0.0001;
+  visibility: hidden;
+  will-change: transform;
+  transition: 0.35s cubic-bezier(0.4, 2.08, 0.55, 1);
+}
+.fab .fabNav a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #fff;
+  transition: 0.25s;
+}
+.fab .fabNav a i {
+  color: #000;
+  transition: 0.25s;
+}
+.fab .fabNav a:hover:before {
+  background-color: #000;
+}
+.fab .fabNav a:hover i {
+  color: #fff;
+}
+.fab .fabNav a:hover .fabTooltip {
+  opacity: 1;
+  visibility: visible;
+}
+.fab .fabTooltip {
+  position: absolute;
+  z-index: -2;
+  width: 90px;
+  padding: 5px;
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  cursor: default;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+
+/* Vertical */
+
+.fabVertical {
+  flex-direction: column;
+  top: 50%;
+  right: 15px;
+  transform: translate(0, -50%);
+}
+.fabVertical.active .fabNav.fabNav--left a {
+  left: 0;
+  transform: scale(1) translateX(0);
+}
+.fabVertical.active .fabNav.fabNav--right a {
+  right: 0;
+  transform: scale(1) translateX(0);
+}
+.fabVertical .fabTrigger {
+  margin: 12px 0;
+}
+.fabVertical .fabNav {
+  flex-direction: column;
+}
+.fabVertical .fabNav a {
+  margin: 12px 0;
+}
+.fabVertical .fabNav a:hover .fabTooltip {
+  right: calc(100% + 10px);
+  transform: translate(0, -50%) scale(1);
+}
+.fabVertical .fabNav.fabNav--left a {
+  left: 0;
+  transform: scale(0.8) translateY(10px);
+}
+.fabVertical .fabNav.fabNav--left a:nth-child(1) {
+  transition-delay: 0.3s;
+}
+.fabVertical .fabNav.fabNav--left a:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.fabVertical .fabNav.fabNav--left a:nth-child(3) {
+  transition-delay: 0.1s;
+}
+.fabVertical .fabNav.fabNav--right a {
+  left: 0%;
+  transform: scale(0.8) translateY(-10px);
+}
+.fabVertical .fabNav.fabNav--right a:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.fabVertical .fabNav.fabNav--right a:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.fabVertical .fabNav.fabNav--right a:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.fabVertical .fabTooltip {
+  top: 50%;
+  right: 0;
+  transform-origin: center right;
+  transform: translate(0, -50%) scale(0);
+}
+
+
+/* Custom Dot Cursor */
+  
+  .header:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50px;
+    height: 2px;
+    background-color: #52a3b6;
+    transform: translateX(-50%);
+  }
+  
+  
+  @media (min-width: 800px) {
+    .col {
+      width: 50%;
+      float: left;
+   }
+    .col:nth-of-type(2n+1) {
+      clear: left;
+   }
+  }
+  .col.col--full {
+    width: 100%;
+  }
+  html, body, html *, body * {
+    cursor: none;
+  }
+  .cursor-dot, .cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  .cursor-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #b6ac52;
+  }
+  .cursor-dot-outline {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(200, 199, 125, 0.5);
+  }
+
+
+  
