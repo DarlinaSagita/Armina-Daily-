@@ -16,7 +16,7 @@ body {
 			bottom: 0;
 		}
 
-        .playlist {
+    .playlist1 {
 			position: absolute;
 			top: 25px;
 			left: 25px;
@@ -26,9 +26,39 @@ body {
             background-color: #52a3b6 ;
 		}
 
-    .playlist1 {
+    .playlist2 {
 			position: absolute;
 			top: 85px;
+			left: 25px;
+			width: 200px;
+			height: 40px;
+            border: ridge 5px #ca7220;
+            background-color: #52a3b6 ;
+		}
+
+    .playlist3 {
+			position: absolute;
+			top: 145px;
+			left: 25px;
+			width: 200px;
+			height: 40px;
+            border: ridge 5px #ca7220;
+            background-color: #52a3b6 ;
+		}
+
+    .playlist4 {
+			position: absolute;
+			top: 205px;
+			left: 25px;
+			width: 200px;
+			height: 40px;
+            border: ridge 5px #ca7220;
+            background-color: #52a3b6 ;
+		}
+
+    .playlist5 {
+			position: absolute;
+			top: 265px;
 			left: 25px;
 			width: 200px;
 			height: 40px;
@@ -70,12 +100,75 @@ body {
             cursor: pointer;
         }
 
+        .video3
+        {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: calc(100% - 1px);
+            border-bottom: solid 1px #6A6A6A;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 10px;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .video4
+        {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: calc(100% - 1px);
+            border-bottom: solid 1px #6A6A6A;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 10px;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .video5
+        {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: calc(100% - 1px);
+            border-bottom: solid 1px #6A6A6A;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 10px;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
         
         .video1 {
             top: 0;
         }
 
         .video2 {
+            top: 0;
+        }
+
+        .video3 {
+            top: 0;
+        }
+
+        .video4 {
+            top: 0;
+        }
+
+        .video5 {
             top: 0;
         }
 
